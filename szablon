@@ -51,7 +51,13 @@ void generujImie(Osoba tab[], int index) 
  
 
 { 
+  string iBazowe = bazaImion[rand() % 7]; 
 
+    char literaI = bazaImion[rand() % 7][0];  
+
+    iBazowe[0] = literaI;  
+
+    tab[index].imie = iBazowe; 
 } 
 
   
