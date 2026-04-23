@@ -151,7 +151,7 @@ int main() {
 
  
 
-    const int ROZMIAR = 100; 
+    const int ROZMIAR = 1000; 
 
     Osoba ludnosc[ROZMIAR]; 
 
